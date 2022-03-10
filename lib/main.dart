@@ -1,4 +1,4 @@
-import 'package:Counter_App/homepage.dart';
+import 'package:counter_app/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 

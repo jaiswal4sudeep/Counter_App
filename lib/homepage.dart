@@ -1,4 +1,4 @@
-import 'package:Counter_App/valueprovider.dart';
+import 'package:counter_app/valueprovider.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
@@ -13,7 +13,10 @@ class HomePage extends HookConsumerWidget {
         title: const Text("Counter App"),
       ),
       body: Center(
-        child: Text('$count'),
+        child: Text(
+          'No. of Taps: $count',
+          style: Theme.of(context).textTheme.headline4,
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
